@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#crate {
+    font-size: 100px;
+    display: inline-block;
+    animation: shake 0.5s infinite alternate;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(1deg); }
+    50% { transform: rotate(-1deg); }
+    75% { transform: rotate(1deg); }
+    100% { transform: rotate(0deg); }
+}
